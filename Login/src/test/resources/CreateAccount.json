@@ -1,0 +1,14 @@
+{
+    "path": "/login/account",
+    "headers": {
+      "Accept": "application/json",
+      "Content-Type": "application/json"
+    },
+    "pathParameters": null,
+    "isBase64Encoded": false,
+    "resource": "/login/account",
+    "httpMethod": "POST",
+    "queryStringParameters": null,
+    "stageVariables": null,
+    "body": "{\"name\" : \"admin\",\"password\" : \"07c248e08db26f709239cfad79142dd2f368974a\"}"
+}

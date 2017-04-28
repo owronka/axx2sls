@@ -1,0 +1,20 @@
+{	"EventSource":"aws:sns",
+	"EventVersion":"1.0",
+	"EventSubscriptionArn":"arn:aws:sns:eu-central-1:597535499425:LoginTopic:41927555-19a6-4abe-96da-f8f71ec025eb",
+	"Sns":{
+		"Type":"Notification",
+		"MessageId":"4f17b022-d218-5df2-b0c6-e13c98fe2990",
+		"TopicArn":"arn:aws:sns:eu-central-1:597535499425:LoginTopic",
+		"Subject":null,
+		"Message":"{
+			\\"name\\" : \\"owronka\\",
+			\\"password\\" : \\"614c5ef32deacfb7cba8183a298823f887cc1be1026194f0457f931f8726bf9f7ec694ef8360c738a6ab886871cbea98\\"
+		}",
+		"Timestamp":"2017-02-15T12:25:10.254Z",
+		"SignatureVersion":"1",
+		"Signature":"encxXywu97cnspJ9TYHZBXzodnOSBsqQpm1sNvw1s1bvQSIwd6Wnpx5GV5/7S930hJGXln2tmy8T6JjE038UktZgor+Y0AK4QtLbVdVbkV3+hfZHi88oa0qdetSfY1TYfxbrR7XXrf8/EvU6eWLoR7ir86aZ7VKaZ4FJ++hFdS+zT/yvrqvOa5hP+v48BtVZyIu1/g6qZiD7wqAp41sOCMK++Pof2zqbGZ5MTUkxG4BCfWKpvTZ4S4rMkiEcI7K7B/5zXx/cfw+XvPbkPmOiq+4ELii/jZMAAm9/gyzA7W6DnoKaOfwoKVJ/s3HnYrIQ7idOoMJqH2VxMKHdhTXYQA==",
+		"SigningCertUrl":"https://sns.eu-central-1.amazonaws.com/SimpleNotificationService-b95095beb82e8f6a046b3aafc7f4149a.pem",
+		"UnsubscribeUrl":"https://sns.eu-central-1.amazonaws.com/?Action=Unsubscribe&SubscriptionArn=arn:aws:sns:eu-central-1:597535499425:LoginTopic:41927555-19a6-4abe-96da-f8f71ec025eb",
+		"MessageAttributes":{}
+	}
+}

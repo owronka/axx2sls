@@ -1,0 +1,14 @@
+{
+    "path": "/content/areas",
+    "headers": {
+      "Accept": "application/json",
+      "Content-Type": "application/json"
+    },
+    "pathParameters": {"id":"1"},
+    "isBase64Encoded": false,
+    "resource": "/content/areas",
+    "httpMethod": "GET",
+    "queryStringParameters": null,
+    "stageVariables": null,
+    "body": null
+}

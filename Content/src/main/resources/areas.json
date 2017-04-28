@@ -1,0 +1,13 @@
+[
+{"id":"1",  "name":"Architektur",  "folder":"0100000000000000000", "number":50, "size":6422, "date":"2016-01-01T12:00:00.000Z", "version":1},
+{"id":"2",  "name":"Audio",        "folder":"0200000000000000000", "number":17, "size":1655, "date":"2016-01-01T12:00:00.000Z", "version":1},
+{"id":"3",  "name":"Auto",         "folder":"0300000000000000000", "number":70, "size":8459, "date":"2016-01-01T12:00:00.000Z", "version":1},
+{"id":"4",  "name":"Computer",     "folder":"0400000000000000000", "number":51, "size":3643, "date":"2016-01-01T12:00:00.000Z", "version":1},
+{"id":"5",  "name":"Essen",        "folder":"0500000000000000000", "number":62, "size":5649, "date":"2016-01-01T12:00:00.000Z", "version":1},
+{"id":"6",  "name":"Menschen",     "folder":"0600000000000000000", "number":60, "size":5917, "date":"2016-01-01T12:00:00.000Z", "version":1},
+{"id":"7",  "name":"Natur",        "folder":"0700000000000000000", "number":74, "size":7586, "date":"2016-01-01T12:00:00.000Z", "version":1},
+{"id":"8",  "name":"St\u00E4dte",  "folder":"0800000000000000000", "number":28, "size":3271, "date":"2016-01-01T12:00:00.000Z", "version":1},
+{"id":"9",  "name":"Tiere",        "folder":"0900000000000000000", "number":26, "size":3399, "date":"2016-01-01T12:00:00.000Z", "version":1},
+{"id":"10", "name":"Unterhaltung", "folder":"1000000000000000000", "number":30, "size":3494, "date":"2016-01-01T12:00:00.000Z", "version":1},
+{"id":"11", "name":"Video",        "folder":"1100000000000000000", "number":14, "size":685,  "date":"2016-01-01T12:00:00.000Z", "version":1}
+]

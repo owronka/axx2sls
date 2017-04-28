@@ -1,0 +1,14 @@
+{
+    "path": "/content/pictures",
+    "headers": {
+      "Accept": "application/json",
+      "Content-Type": "application/json"
+    },
+    "pathParameters": null,
+    "isBase64Encoded": false,
+    "resource": "/content/pictures",
+    "httpMethod": "GET",
+    "queryStringParameters": {"areaId":"1"},
+    "stageVariables": null,
+    "body": null
+}

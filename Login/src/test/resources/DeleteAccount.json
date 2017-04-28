@@ -1,0 +1,11 @@
+{
+	"resource":"/logout/account/{name}",
+	"path":"/logout/account/admin",
+	"httpMethod":"DELETE",
+	"headers":null,
+	"queryStringParameters":null,
+	"pathParameters":{"name":"admin"},
+	"stageVariables":null,
+	"body":null,
+	"isBase64Encoded":false
+}

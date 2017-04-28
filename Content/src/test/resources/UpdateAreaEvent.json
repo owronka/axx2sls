@@ -1,0 +1,14 @@
+{
+    "path": "/content/area/1",
+    "headers": {
+      "Accept": "application/json",
+      "Content-Type": "application/json"
+    },
+    "pathParameters": {"id":"1"},
+    "isBase64Encoded": false,
+    "resource": "/content/area",
+    "httpMethod": "PUT",
+    "queryStringParameters": null,
+    "stageVariables": null,
+    "body": "{\"atos\":[{\"id\":\"1\",  \"name\":\"Architektur\",  \"folder\":\"0100000000000000000\", \"number\":50, \"size\":6422, \"date\":\"2016-01-01T12:00:00.000Z\", \"version\":\"1\"}]}"
+}

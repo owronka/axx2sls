@@ -1,0 +1,14 @@
+{
+    "path": "/registration/person",
+    "headers": {
+      "Accept": "application/json",
+      "Content-Type": "application/json"
+    },
+    "pathParameters": null,
+    "isBase64Encoded": false,
+    "resource": "/registration/person",
+    "httpMethod": "POST",
+    "queryStringParameters": null,
+    "stageVariables": null,
+    "body": "{\"person\":{\"personId\":0,\"salutation\":\"MR\",\"firstName\":\"Oliver\",\"lastName\":\"Wronka\",\"email\":\"wronka@axxessio.com\"},\"account\":{\"id\":0,\"name\":\"owronka\",\"pwdHash\":\"2fc16e077a6a9e74007cbcb792b18fb097e3c701\",\"pwdSalt\":null},\"address\":{\"addressId\":0,\"country\":\"DE\",\"zip\":\"53129\",\"city\":\"Bonn\",\"street\":\"Rheinweg\",\"houseNumber\":\"86\",\"type\":\"HOME\"}}"
+}

@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" xmlns:th="http://www.thymeleaf.org">
+<head>
+<title>Axxess2Serverless - Login</title>
+<meta http-equiv="content-type" content="text/html; charset=ISO-8859-1" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<link rel="stylesheet" type="text/css" href="https://code.jquery.com/mobile/1.2.0/jquery.mobile-1.2.0.css" />
+<script src="login/js/jquery-1.8.2.min.js" type="text/javascript"></script>
+<script src="login/js/jquery.mobile-1.2.0.min.js" type="text/javascript"></script>
+<script src="login/js/login.js" type="text/javascript"></script>
+<script src="login/js/server.js" type="text/javascript"></script>
+<script src="login/js/sha.js" type="text/javascript"></script>
+</head>
+<body>
+    <!-- page:login -->
+    <div data-role="page" id="login">
+        <form id="login-form">
+            <!-- page:login - header -->
+            <div data-role="header" data-position="fixed">
+                <fieldset class="ui-grid-b">
+                    <div class="ui-block-a">
+                        <a data-role="button" data-transition="slidedown" data-icon="arrow-u" rel="external" onclick="main()">Zur&uuml;ck</a>
+                    </div>
+                </fieldset>
+            </div>
+            <!-- page:login - /header -->
+            <!-- page:login - content -->
+            <div data-role="content">
+                <label for="user-name-text" id="user-name-label">Benutzer:</label> 
+                <input type="text" id="user-name-text" value="" size="20" maxlength="80" onkeydown="if (event.keyCode == 13) login()"></input> 
+                <label for="password-text" id="password-label">Password:</label> 
+                <input type="password" id="password-text" value="" size="20" maxlength="20" onkeydown="if (event.keyCode == 13) login()"></input>
+                <a data-role="button" data-icon="check" data-inline="true" onclick="login()">Login</a>
+            </div>
+            <!-- page:login - /content -->
+        </form>
+    </div>
+    <!-- /page:login -->
+    <div data-role="dialog" id="login-error-dialog" class="ui-corner-all">
+        <div data-role="header" data-theme="a" class="ui-corner-top">
+            <h1>Fehler!</h1>
+        </div>
+        <div data-role="content" data-theme="d"
+            class="ui-corner-bottom ui-content">
+            <h2>Benutzer oder Passwort ist falsch bzw. unbekannt!</h2>
+            <a href="#login" data-role="button" data-inline="true"
+                data-theme="a">Ok</a>
+        </div>
+    </div>
+</body>
+</html>

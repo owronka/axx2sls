@@ -1,0 +1,14 @@
+{
+    "path": "/content/area",
+    "headers": {
+      "Accept": "application/json",
+      "Content-Type": "application/json"
+    },
+    "pathParameters": null,
+    "isBase64Encoded": false,
+    "resource": "/content/area",
+    "httpMethod": "POST",
+    "queryStringParameters": null,
+    "stageVariables": null,
+    "body": "{\"atos\":[{\"id\":null, \"name\":\"axxessio\", \"folder\":null, \"number\":0, \"size\":0, \"date\":null, \"version\":null}]}"
+}
